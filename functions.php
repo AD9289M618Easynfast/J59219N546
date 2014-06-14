@@ -22,7 +22,13 @@ function easynfast_setup() {
     $prefix = 'prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"';
 
     global $imagePath;
-    $imagePath = get_template_directory_uri() . '/images/';
+    $imagePath = get_template_directory_uri() . '/images/theme/';
+
+    global $imageIconPath;
+    $imageIconPath = get_template_directory_uri() . '/images/theme/icon/';
+
+    global $imageBannerPath;
+    $imageBannerPath = get_template_directory_uri() . '/images/theme/banner/';
 
     global $mainNav;
     $mainNav = array(

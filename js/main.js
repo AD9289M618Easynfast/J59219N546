@@ -6,7 +6,7 @@
 $(document).scroll(function() {
     var top = $(document).scrollTop();
 
-    if (top > 350) {
+    if (top > 300) {
         $('#social-floating').addClass('fixed-50');
     } else {
         $('#social-floating').removeClass('fixed-50');

@@ -1,7 +1,9 @@
 <?php
-include_once 'seoSupport.php';
+include_once "seoSupport.php";
 $underDevelopment = false;
 
+global $bannerImage;
+$bannerImage = "";
 $keywordSeo = "";
 $descriptionSeo = "";
 $imageSeo = "";
@@ -21,7 +23,7 @@ if ($underDevelopment) {
                     <img src="<?php
                     global $imagePath;
                     echo $imagePath;
-                    ?>theme/about-us-letrinhbaoanh.png" 
+                    ?>about-us-letrinhbaoanh.png" 
                          alt="Le Trinh Bao Anh (zBaoAnhLe) is the founder of EasynFast.net."/>
                 </div>
                 <div class="main-info width-full">
@@ -42,7 +44,7 @@ if ($underDevelopment) {
                         <li>
                             <h3><span>1</span>Passionate People</h3>
                             <p>
-                                We're a group of people who have the passion toward
+                                We’re a group of people who are passionate about what we do. We don't just do it, as a growing independent company WE LIVE IT! We’re a group of problem solvers, designers, developers, critics and we work hard, around the clock if necessary to make sure we deliver something special for our customers!
                             </p>
                         </li>
                         <li>

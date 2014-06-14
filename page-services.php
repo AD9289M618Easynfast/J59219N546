@@ -1,12 +1,12 @@
 <?php
 include_once 'seoSupport.php';
-$underDevelopment = false;
+$underDevelopment = true;
 
-$bannerImage = "";
+$bannerImage = "banner-services.png";
 
 $titleSeo = "";
-$keywordSeo = "";
-$descriptionSeo = "";
+$keywordSeo = "easynfast services, design website, convert psd to website, create wordpress theme";
+$descriptionSeo = "EasynFast Services, We're a group of elites website developer and we are here to convert your idea become reality.";
 $imageSeo = "";
 
 get_header();

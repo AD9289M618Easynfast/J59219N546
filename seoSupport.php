@@ -11,30 +11,25 @@ while (have_posts()) : the_post();
 
     //Set SEO Title
     $titleArray = explode("[title]", get_the_content());
-    global $titleSeo;
     $titleSeo = $titleArray[1];
 
-    if ($titleSeo == '') {
+    if ($titleSeo == "") {
         $titleSeo = $the_title;
     }
 
     //Set Page Link
-    global $permalink;
     $the_permalink = get_permalink();
 
     //Set the Keyword
     $keywordArray = explode("[keyword]", get_the_content());
-    global $keywordSeo;
     $keywordSeo = $keywordArray[1];
 
     //Set the Description
     $descriptionArray = explode("[description]", get_the_content());
-    global $descriptionSeo;
     $descriptionSeo = $descriptionArray[1];
 
     //Set preview Image.
     $imageArray = explode("[image]", get_the_content());
-    global $imageSeo;
     $imageSeo = $imageArray[1];
-    
+
 endwhile;
