@@ -2,8 +2,7 @@
 include_once 'seoSupport.php';
 $underDevelopment = false;
 
-global $bannerImage;
-$bannerImage = "banner-contact-us.png";
+$bannerImage = "banner-contact.png";
 
 $titleSeo = "";
 $keywordSeo = "Contact EasynFast";
@@ -23,7 +22,7 @@ if ($underDevelopment) {
             happy to help you as well as make our services more useful and convenient. Thank you in advance for your interest and 
             support!
         </div>
-        <form action="<?php echo get_template_directory_uri() ?>/contactUs.php" method="post">
+        <form action="<?php echo get_template_directory_uri(); ?>/cont_sendMail.php" method="post">
             <div id="contact-form-wrapper">
                 <div class="message-holder fleft">
                     <input type="text" class="txt-name" placeholder="Name" name="from_name" />
@@ -41,7 +40,7 @@ if ($underDevelopment) {
                     <ul>
                         <li><span>PO box 1369 Osborne park WA 6916, Western Australia</span></li>
                         <li><a href="mailto:zBaoAnhLe@gmail.com">zBaoAnhLe@gmail.com</a></li>
-                        <li><a href="http://easynfast.net">EasynFast.net</a></li>
+                        <li><a href="http://easynfast.net/">EasynFast.net</a></li>
                     </ul>
                 </div>
                 <div class="messagebox-holder clear">
@@ -57,5 +56,3 @@ if ($underDevelopment) {
 </div>
 <?php
 get_footer();
-
-
