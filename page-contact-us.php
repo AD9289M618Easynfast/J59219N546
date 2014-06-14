@@ -22,7 +22,7 @@ if ($underDevelopment) {
             happy to help you as well as make our services more useful and convenient. Thank you in advance for your interest and 
             support!
         </div>
-        <form action="<?php echo get_template_directory_uri(); ?>/cont_sendMail.php" method="post">
+        <form action="<?php echo get_template_directory_uri(); ?>/cont-sendMail.php" method="post">
             <div id="contact-form-wrapper">
                 <div class="message-holder fleft">
                     <input type="text" class="txt-name" placeholder="Name" name="from_name" />
