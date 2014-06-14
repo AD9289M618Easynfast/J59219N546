@@ -1,5 +1,19 @@
 /**
  * *********************************************
+ * Methods Summary: Scroll methods set to social like
+ * *********************************************
+ */
+$(document).scroll(function() {
+    var top = $(document).scrollTop();
+
+    if (top > 350) {
+        $('#social-floating').addClass('fixed-50');
+    } else {
+        $('#social-floating').removeClass('fixed-50');
+    }
+});
+/**
+ * *********************************************
  * Methods Summary: Facebook Like buttons
  * *********************************************
  */
@@ -70,5 +84,18 @@ $(document).ready(function() {
     $('.option-services li').click(function() {
         $('.txt-services').val($(this).html());
         $('.option-services').toggle();
+    });
+});
+
+/**
+ * *********************************************
+ * Methods Summary: Setup Slider with 800px width
+ * *********************************************
+ */
+$(document).ready(function() {
+    $('.slider-800').bxSlider({
+        auto: true,
+        controls: true,
+        page: false
     });
 });

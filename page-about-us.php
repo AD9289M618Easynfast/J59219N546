@@ -36,17 +36,17 @@ if ($underDevelopment) {
             <div class="clear"></div>
 
             <div id="our-commitment">
-                <h2>The Commitment</h2>
+                <h2>EasynFast's Commitment</h2>
                 <div class="main-info width-full">
-                    <ul>
+                    <ul class="commitment-list">
                         <li>
-                            <h3 class="point-1">Passionate People</h3>
+                            <h3><span>1</span>Passionate People</h3>
                             <p>
                                 We're a group of people who have the passion toward
                             </p>
                         </li>
                         <li>
-                            <h3 class="point-2">Knowledge & Expertise</h3>
+                            <h3><span>2</span>Knowledge & Expertise</h3>
                             <p>
                                 We’re the best at what we do! While working with a lot of well-known companies out there, we have learnt a lot from them and also taught them a few tricks too!
                             </p>
@@ -55,15 +55,18 @@ if ($underDevelopment) {
                             </p>
                         </li>
                         <li>
-                            <h3 class="point-3">Creative</h3>
+                            <h3><span>3</span>Creative</h3>
                             <p>
-                               
+                                We’ve noticed that communication is the key to any successful campaign, with a group of many expert designers and developers who can make your idea into reality. 
+                            </p>
+                            <p>
+                                Our creativity isn’t limited by any means, we’ll keep improve and get better at what we do. It's the creativity in thinking that has been helping us think outside the box.
                             </p>
                         </li>
                         <li>
-                            <h3 class="point-4">Proven Result</h3>
+                            <h3><span>4</span>Proven Result</h3>
                             <p>
-
+                                EasynFast group has never fallen in technologies. Each and everyone in our group never stop learning new things everyday. With a strong communicate and teamwork, it helped us learn from each other and grow from there.
                             </p>
                         </li>
                     </ul>
@@ -72,11 +75,18 @@ if ($underDevelopment) {
             <div class="clear"></div>
 
             <div id="our-services">
-                <h2>The Services</h2>
+                <h2>EasynFast's Services</h2>
                 <div class="main-info width-full">
                     EasynFast providing all different kind of services, even thought we have a lot of services our main focuses are Website.
                     It does not matter what you want as long as it's related to Website Development we're here to assist you, your satisfaction is our pleasure.
                 </div>
+                <h3>EasynFast's Services</h3>
+                <ul class="slider-800">
+                    <li>Slider Place Holder 1</li>
+                    <li>Slider Place Holder 2</li>
+                    <li>Slider Place Holder 3</li>
+                    <li>Slider Place Holder 4</li>
+                </ul>
             </div>
             <div class="clear"></div>
         </div>

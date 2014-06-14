@@ -162,7 +162,7 @@
                     <img class="banner-image margin-center width-960" src="<?php
                     global $imagePath;
                     echo $imagePath;
-                    ?>theme/banner.png" alt=""/>
+                    ?>theme/banner/banner.png" alt=""/>
                     <h1 class="page-title"><?php
                         echo $the_title;
                         ?></h1>
@@ -177,7 +177,7 @@
                                 <img src="<?php
                                 global $imagePath;
                                 echo $imagePath;
-                                ?>theme/icon-facebook.png" alt="external link to facebook" width="35" height="34" />
+                                ?>theme/icon/icon-facebook.png" alt="external link to facebook" width="35" height="34" />
                             </a>
                         </li>
                         <li>
@@ -185,7 +185,7 @@
                                 <img src="<?php
                                 global $imagePath;
                                 echo $imagePath;
-                                ?>theme/icon-twitter.png" alt="external link to twitter" width="35" height="34" />
+                                ?>theme/icon/icon-twitter.png" alt="external link to twitter" width="35" height="34" />
                             </a>
                         </li>
                         <li>
@@ -193,7 +193,7 @@
                                 <img src="<?php
                                 global $imagePath;
                                 echo $imagePath;
-                                ?>theme/icon-googleplus.png" alt="external link to google plus" width="35" height="34" />
+                                ?>theme/icon/icon-googleplus.png" alt="external link to google plus" width="35" height="34" />
                             </a>
                         </li>
                     </ul>

@@ -282,17 +282,68 @@
 }
 #our-promise {
 }
-
 #our-commitment {
 }
-#our-promise, #our-commitment {
+#our-services, #our-commitment {
     margin-top: 65px;
+    overflow: auto;
 }
 .about-us-wrapper > div > h2 {
     border-bottom: 1px dotted #F6F6F6;
     font-size: 35px;
     margin-bottom: 20px;
     padding-bottom: 15px;
+}
+.commitment-list {
+    margin: 0 auto;
+    max-width: 860px;
+}
+.commitment-list > li {
+    float: left;
+    padding: 2.5%;
+    width: 45%;
+}
+.commitment-list > li > h3 {
+    margin-bottom: 10px;
+}
+.commitment-list > li > h3 > span {
+    background-image: url("../images/theme/icon/icon-list.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 15px;
+    padding-right: 12px;
+    text-align: right;
+    width: 41px;
+}
+.commitment-list > li p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+#our-services > h3 {
+    background-image: url("../images/theme/icon/icon-arrow-left.png"), url("../images/theme/icon/icon-arrow-right.png");
+    background-position: left center, right center;
+    background-repeat: no-repeat;
+    color: #F2D4D2;
+    display: block;
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 25px auto;
+    text-align: center;
+    width: 385px;
+}
+.slider-800 {
+}
+.slider-800 > li {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 60px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
 }
 .sub-info.fright > img {
     padding-left: 10%;

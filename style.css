@@ -116,6 +116,9 @@ i {
 .social-share-counter > li:last-child {
     margin-bottom: 0;
 }
+.fixed-50 {
+    top: 25% !important;
+}
 .fb-like, .fb-share-button, .g-plusone, div#___plusone_0, .linkedin-share-button, .twitter-share-button {
     display: block !important;
     margin: auto !important;

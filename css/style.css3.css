@@ -1,4 +1,8 @@
-.main-nav > li, .main-nav > li > a, .social-nav > li > a, .main-nav > li > ul {
+.main-nav > li, 
+.main-nav > li > a, 
+.social-nav > li > a, 
+.main-nav > li > ul,
+#social-floating {
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
