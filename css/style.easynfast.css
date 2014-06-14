@@ -1,0 +1,300 @@
+
+.under-development {
+    background-image: url("../images/theme/under-development.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    min-height: 361px;
+}
+#header {
+    padding-top: 100px;
+}
+.fix-header {
+    background-color: #2C2C2C;
+    border-bottom: 20px solid #F6F6F6;
+    box-shadow: 0 0 10px #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.site-title-wrapper {
+    height: 80px;
+    position: relative;
+}
+.site-title {
+    color: #000000;
+    display: inline-block;
+    font-size: 40px;
+    height: 80px;
+    text-decoration: none;
+}
+.site-title.fleft > img {
+    position: relative;
+    top: 11.5px;
+}
+.page-title {
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 33%;
+    width: 100%;
+}
+.main-nav {
+    bottom: -20px;
+    position: absolute;
+    right: 0;
+}
+.main-nav > li {
+    border-bottom: 20px solid rgba(0, 0, 0, 0);
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+.main-nav > li:first-child {
+}
+.main-nav > li:last-child {
+}
+.main-nav > li > a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.main-nav > li:hover {
+    background-color: #F6F6F6;
+    border-color: #2C2C2C;
+}
+.main-nav > li:hover > a {
+    color: #2B2B2B;
+}
+.main-nav li > ul {
+    background-color: #383838;
+    border: 1px solid #404040;
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    width: 275px;
+}
+.main-nav > li:hover > ul {
+    display: block;
+}
+.main-nav .sub-menu > li {
+    padding: 0 10px;
+}
+.main-nav .sub-menu > li:first-child {
+    border-top: medium none;
+}
+.main-nav .sub-menu > li:last-child {
+}
+.main-nav .sub-menu > li > a {
+    border-top: 1px solid #404040;
+    color: #FFFFFF;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.main-nav .sub-menu > li:hover {
+    background-color: #2C2C2C;
+}
+.main-nav .sub-menu > li:hover > a {
+    border-color: rgba(0, 0, 0, 0);
+}
+.banner-wrapper {
+    position: relative;
+}
+.banner-image {
+    width: 100%;
+}
+.social-wrapper {
+    height: 35px;
+    overflow: hidden;
+}
+.social-nav {
+}
+.social-nav > li {
+    border-left: 1px solid #D3D3D3;
+    float: left;
+}
+.social-nav > li:first-child {
+    border-left: medium none;
+}
+.social-nav > li:last-child {
+}
+.social-nav > li > a {
+    display: block;
+}
+.social-nav > li:hover > a {
+}
+#icon-facebook:hover {
+    background-color: #5877CF;
+}
+#icon-twitter:hover {
+    background-color: #55ACEE;
+}
+#icon-googleplus:hover {
+    background-color: #DD4B39;
+}
+#contact-form-wrapper {
+    margin: 0 auto;
+    max-width: 700px;
+}
+.contact-text-wrapper {
+    margin-bottom: 65px;
+}
+.message-holder {
+    padding-right: 5%;
+    position: relative;
+}
+.contact-info-holder {
+    padding-left: 5%;
+}
+.message-holder, .contact-info-holder {
+    width: 45%;
+}
+.option-services {
+    background-color: #FFFFFF;
+    border-left: 1px solid #F6F6F6;
+    border-right: 1px solid #F6F6F6;
+    bottom: -115px;
+    color: #000000;
+    display: none;
+    font-size: 15px;
+    position: absolute;
+    width: 299px;
+}
+.contact-info-holder {
+}
+.option-services > li:hover {
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+.option-services > li {
+    border-bottom: 1px solid #F6F6F6;
+    line-height: 35px;
+    padding-left: 50px;
+}
+.message-holder > input {
+    background-color: #FFFFFF;
+    border: medium none;
+    display: block;
+    font-size: 15px;
+    height: 35px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+    width: 250px;
+}
+.txt-name {
+    background-image: url("../images/theme/icon-name.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+.txt-email {
+    background-image: url("../images/theme/icon-email.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+.txt-services {
+    background-image: url("../images/theme/icon-services.png"), url("../images/theme/icon-services-arrow.png");
+    background-position: 10px center, 270px center;
+    background-repeat: no-repeat;
+}
+.txt-services-overlay {
+    background-color: rgba(0, 0, 0, 0);
+    bottom: 25px;
+    height: 37px;
+    position: absolute;
+    width: 301px;
+}
+.contact-info-holder.fright > ul {
+    background-image: url("../images/theme/contact-right-bg.png");
+    background-repeat: no-repeat;
+    font-size: 15px;
+    height: 162px;
+    padding-left: 70px;
+}
+.contact-info-holder.fright li {
+    color: #F6F6F6;
+    height: 54px;
+}
+.contact-info-holder.fright a {
+    color: #F6F6F6;
+    font-weight: 500;
+    line-height: 54px;
+    text-decoration: underline;
+}
+.contact-info-holder.fright span {
+    font-weight: 500;
+    line-height: 20px;
+    position: relative;
+    top: 5px;
+}
+.message-box {
+    background-image: url("../images/theme/icon-message.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    border: medium none;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    height: 200px;
+    line-height: 25px;
+    padding: 10px 50px;
+    resize: none;
+    width: 600px;
+}
+.messagebox-holder > input[type="submit"] {
+    background-color: #FF695C;
+    border: medium none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    height: 35px;
+    margin: 25px 0;
+    width: 95px;
+}
+.contact-map {
+    height: 440px;
+    width: 100%;
+}
+.about-us-wrapper {
+}
+.about-us-wrapper > div {
+}
+.main-info {
+    text-align: justify;
+    width: 65%;
+}
+.sub-info {
+    width: 30%;
+}
+#who-are-we {
+}
+#our-promise {
+}
+
+#our-commitment {
+}
+#our-promise, #our-commitment {
+    margin-top: 65px;
+}
+.about-us-wrapper > div > h2 {
+    border-bottom: 1px dotted #F6F6F6;
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+.sub-info.fright > img {
+    padding-left: 10%;
+    width: 90%;
+}

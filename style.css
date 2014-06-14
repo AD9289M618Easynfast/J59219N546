@@ -1,0 +1,152 @@
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Light"), local("OpenSans-Light"), url("http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTeY5mlVXtdNkpsMpKkrDXP4.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans"), local("OpenSans"), url("http://themes.googleusercontent.com/static/fonts/opensans/v8/u-WUoqrET9fUeobQW7jkRbO3LdcAZYWl9Si6vvxL-qU.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("http://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSuY5mlVXtdNkpsMpKkrDXP4.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 300;
+    src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"), url("http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxnZ4362_PV5aPD5jU0S2ELI.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Open Sans Italic"), local("OpenSans-Italic"), url("http://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBqfTCPadK0KLfdEfFtGWCYw.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 600;
+    src: local("Open Sans Semibold Italic"), local("OpenSans-SemiboldItalic"), url("http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxhyVJL_BP-r1aUfHSUUH87w.woff") format("woff");
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    background-color: #F6F6F6;
+    color: #F6F6F6;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 25px;
+    overflow-y: hidden;
+}
+a {
+    color: #F6F6F6;
+}
+p {
+    margin-top: 20px;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+b, strong {
+    font-weight: bold;
+}
+i {
+    font-style: italic;
+}
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.width-960 {
+    max-width: 960px;
+}
+.width-full {
+    width: 100% !important;
+}
+.margin-center {
+    display: block;
+    margin: auto;
+}
+.dark-background {
+    background-color: #2C2C2C;
+}
+#social-floating {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    left: 50px;
+    padding: 10px;
+    position: fixed;
+    top: 330px;
+}
+.social-share-counter {
+}
+.social-share-counter > li {
+    margin-bottom: 10px;
+}
+.social-share-counter > li:last-child {
+    margin-bottom: 0;
+}
+.fb-like, .fb-share-button, .g-plusone, div#___plusone_0, .linkedin-share-button, .twitter-share-button {
+    display: block !important;
+    margin: auto !important;
+    text-align: center;
+}
+.linkedin-share-button {
+    margin-bottom: 5px !important;
+}
+.overlay {
+    background-color: #FFFFFF;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+.icon-preloading {
+    margin: auto;
+}
+#wrapper {
+}
+#content {
+    min-height: 500px;
+}
+#main-content {
+    padding: 65px 0 150px;
+}
+#footer {
+    color: #2C2C2C;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}

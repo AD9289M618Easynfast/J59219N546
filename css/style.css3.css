@@ -1,0 +1,10 @@
+.main-nav > li, .main-nav > li > a, .social-nav > li > a, .main-nav > li > ul {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+::selection {
+    background: #00c77a; 
+}
+::-moz-selection {
+    background: #00c77a;
+}
