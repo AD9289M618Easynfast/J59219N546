@@ -125,3 +125,26 @@ $(document).ready(function() {
         pause: 5000
     });
 });
+/**
+ * *********************************************
+ * Methods Summary: Send Mail at Contact-Us Page.
+ * *********************************************
+ */
+ $(document).ready(function() {
+    $('#form-sendMail').on("submit",function(e){
+		e.preventDefault();
+		var from_name = $(this).find("input[type='textbox'][name='from_name']").val();
+		var from_email = $(this).find("input[type='textbox'][name='from_email']").val();
+		var subject = $(this).find("input[type='textbox'][name='subject']").val();
+		var message_body = $(this).find("textarea[name='message_body']").val();
+		var url = $(this).attr("action");
+		$.post(url,{from_name:from_name,from_email:from_email,subject:subject,message_body:message_body},function(result){
+			if(result == "Completed"){
+				alert("Send Mail Successfully");
+				//to do your code here.
+			}else{
+				alert("Error:" + result);
+			}
+		});
+	});
+});
