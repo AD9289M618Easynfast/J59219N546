@@ -2,7 +2,7 @@
 include_once 'seoSupport.php';
 $underDevelopment = false;
 
-$bannerImage = "banner-contact.png";
+$bannerImage = "banner-contact-us.png";
 
 $titleSeo = "";
 $keywordSeo = "Contact EasynFast";

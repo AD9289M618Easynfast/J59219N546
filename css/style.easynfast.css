@@ -195,17 +195,17 @@
     width: 250px;
 }
 .txt-name {
-    background-image: url("../images/theme/icon/icon-name.png");
+    background-image: url("../images/theme/icon/icon-contact-us-name.png");
     background-position: 10px center;
     background-repeat: no-repeat;
 }
 .txt-email {
-    background-image: url("../images/theme/icon/icon-email.png");
+    background-image: url("../images/theme/icon/icon-contact-us-email.png");
     background-position: 10px center;
     background-repeat: no-repeat;
 }
 .txt-services {
-    background-image: url("../images/theme/icon/icon-services.png"), url("../images/theme/icon/icon-services-arrow.png");
+    background-image: url("../images/theme/icon/icon-contact-us-services.png"), url("../images/theme/icon/icon-contact-us-services-arrow.png");
     background-position: 10px center, 270px center;
     background-repeat: no-repeat;
 }
@@ -240,7 +240,7 @@
     top: 5px;
 }
 .message-box {
-    background-image: url("../images/theme/icon/icon-message.png");
+    background-image: url("../images/theme/icon/icon-contact-us-message.png");
     background-position: 10px 10px;
     background-repeat: no-repeat;
     border: medium none;
@@ -291,6 +291,7 @@
 .h2-title, .about-us-wrapper > div > h2 {
     border-bottom: 1px dotted #F6F6F6;
     font-size: 35px;
+    line-height: 35px;
     margin-bottom: 20px;
     padding-bottom: 15px;
 }
@@ -401,7 +402,7 @@
 .psd-to-website-wrapper .our-promise {
 }
 .promise-note-list > li {
-    background-image: url("../images/theme/icon/icon-psdtowebsite.png");
+    background-image: url("../images/theme/icon/icon-page-convert-psd-to-website.png");
     background-position: -70px center;
     background-repeat: no-repeat;
     color: #000000;
@@ -411,4 +412,57 @@
 }
 .promise-note-list > li:last-child {
     margin-bottom: 0;
+}
+.psd-to-website-wrapper .our-offer {
+}
+.offer-list {
+    margin: 30px auto 0;
+    width: 578px;
+}
+.offer-list > li {
+    background-image: url("../images/theme/bg/bg-offer-list.png");
+    background-repeat: no-repeat;
+    color: #000000;
+    height: 56px;
+    line-height: 65px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+.offer-list .price-quote {
+    background-color: #FE5E50;
+    border-radius: 10px;
+    color: #000000;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    height: 45px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    width: 145px;
+}
+.offer-list .price-quote:hover {
+}
+.offer-list > li:last-child {
+    background-image: none;
+    height: 45px;
+    line-height: 45px;
+    margin: 0;
+    padding: 20px 0 0;
+}
+span.icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 35px;
+    margin-right: 15px;
+    width: 35px;
+}
+.icon-thumbsup {
+    background-image: url("../images/theme/icon/icon-page-convert-psd-to-website.png");
+    background-position: 0 0;
+}
+.icon-list {
+    background-image: url("../images/theme/icon/icon-page-convert-psd-to-website.png");
+    background-position: -35px 4px;
 }

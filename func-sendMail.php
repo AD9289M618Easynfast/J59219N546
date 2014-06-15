@@ -4,13 +4,14 @@
  * @author duccnv
  * @copyright 2014
  */
-require_once('lib/class.phpmailer.php'); 
-function sendMailOrder($from,$from_name,$subject,$body){
-    $mail = new PHPMailer(); 
-    $mail->IsSMTP(); 
-    $mail->SMTPAuth = false; 
+require_once('lib/class.phpmailer.php');
+
+function sendMailOrder($from, $from_name, $subject, $body) {
+    $mail = new PHPMailer();
+    $mail->IsSMTP();
+    $mail->SMTPAuth = false;
     $mail->Host = "relay-hosting.secureserver.net";
-    $mail->Port = 25; 
+    $mail->Port = 25;
     $mail->IsHTML(true);
     $mail->Username = "info@easynfast.net";
     $mail->Password = "";
@@ -19,15 +20,11 @@ function sendMailOrder($from,$from_name,$subject,$body){
     $mail->Body = $body;
     $mail->AddAddress("zbaoanhle@gmail.com");
     $error = '';
-    if(!$mail->Send())
-    {
+    if (!$mail->Send()) {
         $error = "Mailer Error: " . $mail->ErrorInfo;
-    }
-    else
-    {
+    } else {
         $error = '';
     }
-    
-   return $error;
+
+    return $error;
 }
-?>

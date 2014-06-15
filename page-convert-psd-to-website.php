@@ -40,7 +40,7 @@ if ($underDevelopment) {
             </div>
 
             <div class="our-promise">
-                <h2 class="h2-title"><span class="icon-thumbsup"></span>Our Promise</h2>
+                <h2 class="h2-title"><span class="icon icon-thumbsup"></span>Our Promise</h2>
                 <ul class="promise-note-list">
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
@@ -49,8 +49,21 @@ if ($underDevelopment) {
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
                 </ul>
             </div>
-            <div class="our-offer">
+            <div class="clear"></div>
 
+            <div class="our-offer">
+                <h2 class="h2-title"><span class="icon icon-list"></span>Our Offer</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <ul class="offer-list">
+                    <li>Lorem ipsum dolor sit amet, consectetur</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur</li>
+                    <li><a href="#" class="price-quote">Price Quote</a></li>
+                </ul>
             </div>
         </div>
     <?php endif; ?>
