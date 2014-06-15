@@ -2,7 +2,9 @@
 include_once "seoSupport.php";
 $underDevelopment = false;
 
+global $imagePath;
 global $bannerImage;
+
 $bannerImage = "";
 $keywordSeo = "";
 $descriptionSeo = "";
@@ -21,7 +23,6 @@ if ($underDevelopment) {
                 <h2>EasynFast's Creation</h2>
                 <div class="sub-info fright">
                     <img src="<?php
-                    global $imagePath;
                     echo $imagePath;
                     ?>about-us-letrinhbaoanh.png" 
                          alt="Le Trinh Bao Anh (zBaoAnhLe) is the founder of EasynFast.net."/>

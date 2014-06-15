@@ -1,5 +1,24 @@
 /**
  * *********************************************
+ * Methods Summary: Google Analytics Tracking
+ * *********************************************
+ */
+(function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments);
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-44157118-1', 'easynfast.net');
+ga('send', 'pageview');
+/**
+ * *********************************************
  * Methods Summary: Scroll methods set to social like
  * *********************************************
  */
@@ -86,7 +105,6 @@ $(document).ready(function() {
         $('.option-services').toggle();
     });
 });
-
 /**
  * *********************************************
  * Methods Summary: Setup Slider with 800px width
@@ -97,5 +115,13 @@ $(document).ready(function() {
         auto: true,
         controls: true,
         page: false
+    });
+});
+$(document).ready(function() {
+    $('.slider-300').bxSlider({
+        auto: true,
+        controls: true,
+        pager: false,
+        pause: 5000
     });
 });

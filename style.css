@@ -134,7 +134,7 @@ i {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 100;
+    z-index: 99999;
 }
 .icon-preloading {
     margin: auto;
@@ -146,6 +146,12 @@ i {
 }
 #main-content {
     padding: 65px 0 150px;
+}
+#main-content > div > div {
+    margin-top: 60px;
+}
+#main-content > div > div:first-child {
+    margin-top: 0;
 }
 #footer {
     color: #2C2C2C;

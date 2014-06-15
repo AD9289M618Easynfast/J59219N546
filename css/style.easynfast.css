@@ -17,7 +17,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 99;
+    z-index: 99998;
 }
 .site-title-wrapper {
     height: 80px;
@@ -288,7 +288,7 @@
     margin-top: 65px;
     overflow: auto;
 }
-.about-us-wrapper > div > h2 {
+.h2-title, .about-us-wrapper > div > h2 {
     border-bottom: 1px dotted #F6F6F6;
     font-size: 35px;
     margin-bottom: 20px;
@@ -348,4 +348,67 @@
 .sub-info.fright > img {
     padding-left: 10%;
     width: 90%;
+}
+.double-layer-wrapper {
+    background: none repeat scroll 0 0 #252525;
+    margin: 0 auto;
+    width: 925px;
+}
+.double-layer-wrapper, .double-layer-wrapper > div:first-child {
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    overflow: visible;
+    position: relative;
+}
+.what-psd-to-website {
+    background-color: #2C2C2C;
+    left: -5px;
+    padding: 3%;
+    top: -5px;
+}
+.what-psd-to-website .bx-prev {
+    background-image: url("../images/theme/slider-vertical-line.png"), url("../images/theme/slider-icon-navigation.png");
+    background-position: right center, 0 center;
+    height: 170px !important;
+    margin: 0 !important;
+    padding: 0;
+    top: 0 !important;
+    width: 21px !important;
+}
+.what-psd-to-website .bx-next {
+    background-image: url("../images/theme/slider-vertical-line.png"), url("../images/theme/slider-icon-navigation.png");
+    background-position: 0 center, right center;
+    height: 170px !important;
+    margin: 0 !important;
+    padding: 0;
+    top: 0 !important;
+    width: 21px !important;
+}
+.what-psd-to-website .bx-prev:hover {
+    background-position: right center, 0 center;
+}
+.what-psd-to-website .bx-next:hover {
+    background-position: 0 center, right center;
+}
+.promise-note-list {
+    background-image: url("../images/theme/bg/bg-promise-top.png"), url("../images/theme/bg/bg-promise-bottom.png"), url("../images/theme/bg/bg-promise-center.png");
+    background-position: center top, center bottom, 0 center;
+    background-repeat: no-repeat, no-repeat, repeat;
+    margin: 40px auto 0;
+    padding: 100px 50px 60px;
+    width: 540px;
+}
+.psd-to-website-wrapper .our-promise {
+}
+.promise-note-list > li {
+    background-image: url("../images/theme/icon/icon-psdtowebsite.png");
+    background-position: -70px center;
+    background-repeat: no-repeat;
+    color: #000000;
+    line-height: 35px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+.promise-note-list > li:last-child {
+    margin-bottom: 0;
 }
