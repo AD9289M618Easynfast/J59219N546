@@ -6,7 +6,7 @@ global $imagePath;
 global $imageIconPath;
 global $bannerImage;
 
-$bannerImage = "";
+$bannerImage = "banner-convert-psd-to-website.png";
 $keywordSeo = "";
 $descriptionSeo = "";
 $imageSeo = "";
@@ -62,7 +62,7 @@ if ($underDevelopment) {
                     <li>Lorem ipsum dolor sit amet, consectetur</li>
                     <li>Lorem ipsum dolor sit amet, consectetur</li>
                     <li>Lorem ipsum dolor sit amet, consectetur</li>
-                    <li><a href="#" class="price-quote">Price Quote</a></li>
+                    <li><a class="price-quote not-implement-alert">Price Quote</a></li>
                 </ul>
             </div>
         </div>

@@ -5,7 +5,7 @@ $underDevelopment = false;
 global $imagePath;
 global $bannerImage;
 
-$bannerImage = "";
+$bannerImage = "banner-about-us.png";
 $keywordSeo = "";
 $descriptionSeo = "";
 $imageSeo = "";

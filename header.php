@@ -92,6 +92,9 @@
                  ?>icon-loading.gif" 
                  alt="EasynFast.net pre-loading icon"/>
         </div>
+        <div class="dialog-not-implement display-none">
+            This function is not yet implemented!
+        </div>
         <div id="social-floating">
             <ul class="social-share-counter">
                 <li>
