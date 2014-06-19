@@ -409,12 +409,16 @@
     background-position: -70px center;
     background-repeat: no-repeat;
     color: #000000;
+    font-weight: bold;
     line-height: 35px;
     margin-bottom: 20px;
     padding-left: 50px;
 }
 .promise-note-list > li:last-child {
     margin-bottom: 0;
+}
+.promise-note-list > li strong, .offer-list strong {
+    color: #DD3425;
 }
 .psd-to-website-wrapper .our-offer {
 }
@@ -429,7 +433,7 @@
     height: 56px;
     line-height: 65px;
     margin-bottom: 15px;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 .offer-list .price-quote {
     background-color: #FE5E50;

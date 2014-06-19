@@ -85,7 +85,28 @@
         <meta property="og:description" content="<?php
         echo $descriptionSeo;
         ?>"/>
-              <?php wp_head(); ?>
+        <script type="text/javascript">
+            /**
+             * *********************************************
+             * Methods Summary: Google Analytics Tracking
+             * *********************************************
+             */
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments);
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-44157118-1', 'easynfast.net');
+            ga('send', 'pageview');
+        </script>
+        <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
         <div class="overlay loading">
@@ -157,7 +178,8 @@
                         <a href="#" class="site-title fleft">
                             <img src="<?php
                             echo $imagePath;
-                            ?>logo-easynfast.net.png"/>
+                            ?>logo-easynfast.net.png"
+                                 alt="Easynfast Logo images"/>
                         </a>
                         <?php
                         wp_nav_menu($mainNav);
@@ -186,21 +208,24 @@
                             <a id="icon-facebook" href="https://www.facebook.com/easynfast.net" target="_blank">
                                 <img src="<?php
                                 echo $imageIconPath;
-                                ?>icon-facebook.png" alt="external link to facebook" width="35" height="34" />
+                                ?>icon-facebook.png" 
+                                     alt="external link to facebook" width="35" height="34" />
                             </a>
                         </li>
                         <li>
                             <a id="icon-twitter" href="#" target="_blank">
                                 <img src="<?php
                                 echo $imageIconPath;
-                                ?>icon-twitter.png" alt="external link to twitter" width="35" height="34" />
+                                ?>icon-twitter.png" 
+                                     alt="external link to twitter" width="35" height="34" />
                             </a>
                         </li>
                         <li>
                             <a id="icon-googleplus" href="#" target="_blank">
                                 <img src="<?php
                                 echo $imageIconPath;
-                                ?>icon-googleplus.png" alt="external link to google plus" width="35" height="34" />
+                                ?>icon-googleplus.png" 
+                                     alt="external link to google plus" width="35" height="34" />
                             </a>
                         </li>
                     </ul>

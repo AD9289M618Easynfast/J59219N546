@@ -8,8 +8,9 @@ global $imageFbPath;
 global $bannerImage;
 
 $bannerImage = "banner-convert-psd-to-website.png";
-$keywordSeo = "";
-$descriptionSeo = "";
+$titleSeo = "Convert PSD to Website Services";
+$keywordSeo = "convert psd to website services";
+$descriptionSeo = "Convert Psd to Website Services. We'll provide you top quality conversion of your website design into website within 5 days including weekend!";
 $imageSeo = $imageFbPath . "fb-convert-psd-to-website.png";
 
 get_header();
@@ -24,14 +25,15 @@ if ($underDevelopment) {
             <div class="double-layer-wrapper">
                 <div class="convert-psd-to-website-services">
                     <div class="main-info fleft">
-                        <h2 class="h2-title">Convert Psd to Website Services</h2>
+                        <h1 class="h2-title">Convert Psd to Website Services</h1>
                         <p>
-                            <strong>Convert PSD to Website</strong> is a general term to describe the process of <strong>converting a .psd extension image file into a live website</strong>, a website in this case can be pure html/css, email template or wordpress.
+                            <strong><u>Convert PSD to Website</u></strong> 
+                            is a general term to describe the process of converting a .psd extension image file into a live website. A website is a document written in plain html (hypertext markup language).
                         </p>
                         <p>
-                            If you already have the designed of your website and doesn’t know how to convert it into a website or maybe you’re lazy to do so, our expert team will do that for you! We guarantee that you won’t be disappoint!
+                            If you already have the designed of your website and doesn’t know how to convert it into a website or maybe you’re lazy to do so, our expert team will do that for you! We guarantee that you won’t be disappointed!
                         </p>
-                        <p>
+                        <p class="noticed">
                             Noticed: if you not yet have the design of your website we’re also provide Website Designing Services here. 
                         </p>
                     </div>
@@ -47,28 +49,32 @@ if ($underDevelopment) {
             </div>
 
             <div class="our-promise">
-                <h2 class="h2-title"><span class="icon icon-thumbsup"></span>Our Promise</h2>
+                <h2 class="h2-title"><span class="icon icon-thumbsup"></span>Our Promise/Commitment</h2>
+                <p>
+                    As we’re providing <strong>Convert Psd to Website Services</strong>, our main focus is to make our customers happy with our services. We show our <u>commitment & passion</u> in our job by giving our customer the <strong>best quality services</strong>! We are capable of doing anything, if that is what its take to make our <i>customer happy</i>.
+                </p>
                 <ul class="promise-note-list">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                    <li><strong>ALWAYS ON TIME</strong> for deadline</li>
+                    <li>Mockup will be <strong><i>PIXEL PERFECT</i></strong></li>
+                    <li><strong><u>Validated html/css</u></strong> with <strong>W3C STANDARD</strong></li>
+                    <li>Using <strong><u>table-less layout</u></strong></li>
+                    <li>Already <strong><i>Optimized SEO</i></strong> (Search Engine Optimization).</li>
+                    <li><strong><u>Unlimited revision</u></strong> and almost <strong>24/7 support team</strong></li>
                 </ul>
             </div>
             <div class="clear"></div>
 
             <div class="our-offer">
-                <h2 class="h2-title"><span class="icon icon-list"></span>Our Offer</h2>
+                <h2 class="h2-title"><span class="icon icon-list"></span>Our Offer for Convert Psd to Website Services</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    We not only have good quality services, our prices are competitive too. We always come up with different promotion events to draw attention to our target audiences!  So if you’re a coming back customer you are definitely going to get into our discount programs!
                 </p>
                 <ul class="offer-list">
-                    <li>Lorem ipsum dolor sit amet, consectetur</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur</li>
+                    <li>See our offer for <a href="#"><strong>Website Designing</strong></a>.</li>
+                    <li><strong>Convert Psd to Website</strong> - Starting from <strong>$99.99</strong> (front page)</li>
+                    <li><strong>Convert Psd to Website</strong> - Starting from <strong>$49.99</strong> (internal page)</li>
+                    <li><strong>Responsive Design</strong> - Starting from <strong>$249.99</strong> (whole project)</li>
+                    <li>See our offer for <a href="#"><strong>Wordpress Integration</strong></a>.</li>
                     <li><a class="price-quote not-implement-alert">Price Quote</a></li>
                 </ul>
             </div>

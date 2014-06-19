@@ -55,6 +55,7 @@ body {
 }
 a {
     color: #F6F6F6;
+    cursor: pointer;
 }
 p {
     margin-top: 20px;
@@ -74,6 +75,8 @@ table {
 }
 b, strong {
     font-weight: bold;
+}
+strong {
 }
 i {
     font-style: italic;
@@ -169,6 +172,10 @@ i {
 }
 #main-content > div > div:first-child {
     margin-top: 0;
+}
+p.noticed {
+    color: #DD3425;
+    text-align: center;
 }
 #footer {
     color: #2C2C2C;
