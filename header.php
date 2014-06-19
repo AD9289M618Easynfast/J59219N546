@@ -10,6 +10,7 @@
     global $siteNameSeo;
     global $keywordSeo;
     global $descriptionSeo;
+    global $imageSeo;
     global $the_permalink;
     global $mainNav;
 
@@ -76,7 +77,9 @@
 
         <!--website thumbnail image-->
         <!--TODO-->
-        <meta property="og:image" content=""/>
+        <meta property="og:image" content="<?php
+        echo $imageSeo;
+        ?>"/>
 
         <!--description-->
         <meta property="og:description" content="<?php

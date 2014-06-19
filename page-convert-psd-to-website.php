@@ -4,12 +4,13 @@ $underDevelopment = false;
 
 global $imagePath;
 global $imageIconPath;
+global $imageFbPath;
 global $bannerImage;
 
 $bannerImage = "banner-convert-psd-to-website.png";
 $keywordSeo = "";
 $descriptionSeo = "";
-$imageSeo = "";
+$imageSeo = $imageFbPath . "fb-convert-psd-to-website.png";
 
 get_header();
 ?>
@@ -21,11 +22,17 @@ if ($underDevelopment) {
          <?php if (!$underDevelopment) : ?>
         <div class="psd-to-website-wrapper">
             <div class="double-layer-wrapper">
-                <div class="what-psd-to-website">
+                <div class="convert-psd-to-website-services">
                     <div class="main-info fleft">
-                        <h2 class="h2-title">What is Convert Psd to Website?</h2>
+                        <h2 class="h2-title">Convert Psd to Website Services</h2>
                         <p>
-                            Convert PSD to Website mean that someone already has a design of their website but doesn’t know how to code it. They will have to look for someone who can convert that design from an image into a live website, then that progress is called “Convert PSD to WEBSITE”…
+                            <strong>Convert PSD to Website</strong> is a general term to describe the process of <strong>converting a .psd extension image file into a live website</strong>, a website in this case can be pure html/css, email template or wordpress.
+                        </p>
+                        <p>
+                            If you already have the designed of your website and doesn’t know how to convert it into a website or maybe you’re lazy to do so, our expert team will do that for you! We guarantee that you won’t be disappoint!
+                        </p>
+                        <p>
+                            Noticed: if you not yet have the design of your website we’re also provide Website Designing Services here. 
                         </p>
                     </div>
                     <div class="sub-info fright">

@@ -27,6 +27,9 @@ function easynfast_setup() {
     global $imageIconPath;
     $imageIconPath = get_template_directory_uri() . '/images/theme/icon/';
 
+    global $imageFbPath;
+    $imageFbPath = get_template_directory_uri() . '/images/theme/fb-thumbs/';
+
     global $imageBannerPath;
     $imageBannerPath = get_template_directory_uri() . '/images/theme/banner/';
 
@@ -117,8 +120,8 @@ remove_filter('comment_text', 'wpautop');
 //    }
 //    $wp_rewrite->flush_rules();
 //}
-//
-//register_activation_hook(__FILE__, 'active');
+
+register_activation_hook(__FILE__, 'active');
 add_filter('show_admin_bar', '__return_false');
 
 

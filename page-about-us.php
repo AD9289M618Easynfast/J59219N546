@@ -4,6 +4,7 @@ $underDevelopment = false;
 
 global $imagePath;
 global $bannerImage;
+global $imageFbPath;
 
 $bannerImage = "banner-about-us.png";
 $keywordSeo = "";

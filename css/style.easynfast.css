@@ -361,13 +361,16 @@
     overflow: visible;
     position: relative;
 }
-.what-psd-to-website {
+.convert-psd-to-website-services {
     background-color: #2C2C2C;
     left: -5px;
     padding: 3%;
     top: -5px;
 }
-.what-psd-to-website .bx-prev {
+.convert-psd-to-website-services .sub-info {
+    margin-top: 10%;
+}
+.convert-psd-to-website-services .bx-prev {
     background-image: url("../images/theme/slider-vertical-line.png"), url("../images/theme/slider-icon-navigation.png");
     background-position: right center, 0 center;
     height: 170px !important;
@@ -376,7 +379,7 @@
     top: 0 !important;
     width: 21px !important;
 }
-.what-psd-to-website .bx-next {
+.convert-psd-to-website-services .bx-next {
     background-image: url("../images/theme/slider-vertical-line.png"), url("../images/theme/slider-icon-navigation.png");
     background-position: 0 center, right center;
     height: 170px !important;
@@ -385,10 +388,10 @@
     top: 0 !important;
     width: 21px !important;
 }
-.what-psd-to-website .bx-prev:hover {
+.convert-psd-to-website-services .bx-prev:hover {
     background-position: right center, 0 center;
 }
-.what-psd-to-website .bx-next:hover {
+.convert-psd-to-website-services .bx-next:hover {
     background-position: 0 center, right center;
 }
 .promise-note-list {
