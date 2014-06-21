@@ -1,18 +1,46 @@
 <?php
-include_once 'seoSupport.php';
+include_once "seoSupport.php";
 $underDevelopment = false;
+/**
+ * *********************************************
+ * Methods Summary: Global Variables
+ * *********************************************
+ */
+global $imagePath;
+global $imageIconPath;
+global $imageFbPath;
+global $bannerImage;
 
+/**
+ * *********************************************
+ * Methods Summary: SEO Optimize Variables
+ * *********************************************
+ */
+//Banner Images
 $bannerImage = "banner-contact-us.png";
 
-$titleSeo = "";
+//SEO Titles. if "" > default title
+$titleSeo = "Contact Us";
+
+//SEO Keywords
 $keywordSeo = "Contact EasynFast";
+
+//SEO Description
 $descriptionSeo = "EasynFast support team is here to help. If you have any questions, suggestions or comments on our Services, please don't hesitate to send them to us.";
-$imageSeo = "";
+
+//SEO Facebook Images.
+$imageSeo = $imageFbPath . "fb-contact-us.png";
 
 get_header();
 ?>
 <div id="main-content" <?php
 if ($underDevelopment) {
+    /**
+     * *********************************************
+     * Methods Summary: If is under development Content 
+     * won't show.
+     * *********************************************
+     */
     echo 'class="under-development"';
 }
 ?>>

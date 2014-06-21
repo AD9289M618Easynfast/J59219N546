@@ -1,21 +1,45 @@
 <?php
 include_once "seoSupport.php";
 $underDevelopment = false;
-
+/**
+ * *********************************************
+ * Methods Summary: Global Variables
+ * *********************************************
+ */
 global $imagePath;
 global $imageIconPath;
 global $imageFbPath;
 global $bannerImage;
 
+/**
+ * *********************************************
+ * Methods Summary: SEO Optimize Variables
+ * *********************************************
+ */
+//Banner Images
 $bannerImage = "banner-convert-psd-to-website.png";
+
+//SEO Titles. if "" > default title
 $titleSeo = "Convert PSD to Website Services";
+
+//SEO Keywords
 $keywordSeo = "convert psd to website services";
+
+//SEO Description
 $descriptionSeo = "Convert Psd to Website Services. We'll provide you top quality conversion of your website design into website within 5 days including weekend!";
+
+//SEO Facebook Images.
 $imageSeo = $imageFbPath . "fb-convert-psd-to-website.png";
 
 get_header();
 ?>
 <div id="main-content" <?php
+/**
+ * *********************************************
+ * Methods Summary: If is under development Content 
+ * won't show.
+ * *********************************************
+ */
 if ($underDevelopment) {
     echo 'class="under-development"';
 }

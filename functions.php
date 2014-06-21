@@ -93,33 +93,33 @@ remove_filter('comment_text', 'wpautop');
  * Methods Summary: Methods to set .html to pages
  * *********************************************
  */
-//function html_page_permalink() {
-//    global $wp_rewrite;
-//    if (!strpos($wp_rewrite->get_page_permastruct(), '.html')) {
-//        $wp_rewrite->page_structure = $wp_rewrite->page_structure . '.html';
-//    }
-//}
-//
-//add_action('init', 'html_page_permalink');
-//
-//function no_page_slash($string, $type) {
-//    global $wp_rewrite;
-//    if ($wp_rewrite->using_permalinks() && $wp_rewrite->use_trailing_slashes == true && $type == 'page') {
-//        return untrailingslashit($string);
-//    } else {
-//        return $string;
-//    }
-//}
-//
-//add_filter('user_trailingslashit', 'no_page_slash', 66, 2);
-//
-//function active() {
-//    global $wp_rewrite;
-//    if (!strpos($wp_rewrite->get_page_permastruct(), '.html')) {
-//        $wp_rewrite->page_structure = $wp_rewrite->page_structure . '.html';
-//    }
-//    $wp_rewrite->flush_rules();
-//}
+function html_page_permalink() {
+    global $wp_rewrite;
+    if (!strpos($wp_rewrite->get_page_permastruct(), '.html')) {
+        $wp_rewrite->page_structure = $wp_rewrite->page_structure . '.html';
+    }
+}
+
+add_action('init', 'html_page_permalink');
+
+function no_page_slash($string, $type) {
+    global $wp_rewrite;
+    if ($wp_rewrite->using_permalinks() && $wp_rewrite->use_trailing_slashes == true && $type == 'page') {
+        return untrailingslashit($string);
+    } else {
+        return $string;
+    }
+}
+
+add_filter('user_trailingslashit', 'no_page_slash', 66, 2);
+
+function active() {
+    global $wp_rewrite;
+    if (!strpos($wp_rewrite->get_page_permastruct(), '.html')) {
+        $wp_rewrite->page_structure = $wp_rewrite->page_structure . '.html';
+    }
+    $wp_rewrite->flush_rules();
+}
 
 register_activation_hook(__FILE__, 'active');
 add_filter('show_admin_bar', '__return_false');

@@ -1,19 +1,45 @@
 <?php
 include_once "seoSupport.php";
 $underDevelopment = false;
-
+/**
+ * *********************************************
+ * Methods Summary: Global Variables
+ * *********************************************
+ */
 global $imagePath;
-global $bannerImage;
+global $imageIconPath;
 global $imageFbPath;
+global $bannerImage;
 
+/**
+ * *********************************************
+ * Methods Summary: SEO Optimize Variables
+ * *********************************************
+ */
+//Banner Images
 $bannerImage = "banner-about-us.png";
-$keywordSeo = "";
-$descriptionSeo = "";
-$imageSeo = "";
+
+//SEO Titles. if "" > default title
+$titleSeo = "";
+
+//SEO Keywords
+$keywordSeo = "about easynfast";
+
+//SEO Description
+$descriptionSeo = "We’re a group of people who are passionate about what we do. We don't just do it, as a growing independent company WE LIVE IT!";
+
+//SEO Facebook Images.
+$imageSeo = $imageFbPath . "fb-about-us.png";
 
 get_header();
 ?>
 <div id="main-content" <?php
+/**
+ * *********************************************
+ * Methods Summary: If is under development Content 
+ * won't show.
+ * *********************************************
+ */
 if ($underDevelopment) {
     echo 'class="under-development"';
 }

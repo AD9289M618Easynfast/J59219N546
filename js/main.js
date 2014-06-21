@@ -138,3 +138,32 @@ $(document).ready(function() {
 $('.not-implement-alert').click(function() {
     $('.dialog-not-implement').stop().fadeIn(200).delay(1000).fadeOut(200);
 });
+/**
+ * *********************************************
+ * Methods Summary: Alert for Page is Under Development
+ * *********************************************
+ */
+$(document).ready(function() {
+    var mainNav = $('.main-nav li');
+    var underDevArr = Array(
+            'http://easynfast.net/',
+            //'http://easynfast.net/about-us.html',
+            'http://easynfast.net/services.html',
+            //'http://easynfast.net/services/convert-psd-to-website.html',
+            'http://easynfast.net/services/create-wordpress-theme.html',
+            'http://easynfast.net/services/improve-website-performance.html',
+            'http://easynfast.net/portfolio.html'//,
+            //'http://easynfast.net/contact-us.html'
+            );
+
+    var mainNavSize = mainNav.length;
+    for (var i = 0; i < mainNavSize; i++) {
+        var urlName = $(mainNav).eq(i).find('a').attr('href');
+        console.log('The href: ' + urlName);
+        var aTag = $(mainNav).eq(i).find('> a');
+        if ($.inArray(urlName, underDevArr, 0) !== -1) {
+            aTag.attr('href', '#');
+            aTag.addClass('link-under-development');
+        }
+    }
+});
