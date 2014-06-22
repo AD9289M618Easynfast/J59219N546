@@ -45,8 +45,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 body {
-    background-color: #F6F6F6;
-    color: #F6F6F6;
+    background-color: #f6f6f6;
+    color: #f6f6f6;
     font-family: 'Open Sans';
     font-size: 17px;
     font-weight: normal;
@@ -54,7 +54,7 @@ body {
     overflow-y: hidden;
 }
 a {
-    color: #F6F6F6;
+    color: #f6f6f6;
     cursor: pointer;
 }
 p {
@@ -101,24 +101,18 @@ i {
     margin: auto;
 }
 .dark-background {
-    background-color: #2C2C2C;
+    background-color: #2c2c2c;
 }
 .display-none {
     display: none;
 }
-.dialog-not-implement {
+.dialog-function-under-development {
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 25px;
-    bottom: 0;
-    height: 200px;
-    left: 0;
+    border-radius: 10px;
+    height: 70px;
     margin: auto;
     padding: 30px;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 300px;
-    z-index: 9997;
+    width: 550px;
 }
 #social-floating {
     background-color: rgba(0, 0, 0, 0.3);
@@ -147,8 +141,13 @@ i {
 .linkedin-share-button {
     margin-bottom: 5px !important;
 }
+.overlay-light {
+    background-color: #ffffff;
+}
+.overlay-dark {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 .overlay {
-    background-color: #FFFFFF;
     bottom: 0;
     left: 0;
     position: fixed;
@@ -174,11 +173,11 @@ i {
     margin-top: 0;
 }
 p.noticed {
-    color: #DD3425;
+    color: #dd3425;
     text-align: center;
 }
 #footer {
-    color: #2C2C2C;
+    color: #2c2c2c;
     height: 50px;
     line-height: 50px;
     text-align: center;

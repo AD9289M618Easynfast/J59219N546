@@ -20,8 +20,8 @@ $(document).scroll(function() {
  */
 $(window).load(function() {
     $('.icon-preloading').fadeOut();
-    $('.loading').delay(350).fadeOut('slow');
-    $('body').delay(350).css({'overflow-y': 'visible'});
+    $('.loading').fadeOut('slow');
+    $('body').css({'overflow-y': 'visible'});
     /**
      * *********************************************
      * Methods Summary: Facebook Like buttons
@@ -130,40 +130,75 @@ $(document).ready(function() {
         });
     });
 });
-/**
- * *********************************************
- * Methods Summary: Alert for Not implement Function
- * *********************************************
- */
-$('.not-implement-alert').click(function() {
-    $('.dialog-not-implement').stop().fadeIn(200).delay(1000).fadeOut(200);
-});
+
 /**
  * *********************************************
  * Methods Summary: Alert for Page is Under Development
  * *********************************************
  */
 $(document).ready(function() {
-    var mainNav = $('.main-nav li');
+    /**
+     * *********************************************
+     * Methods Summary: Add Class to <a> to under development pages
+     * *********************************************
+     */
+    var linkItem = $('a');
     var underDevArr = Array(
-            'http://easynfast.net/',
-            //'http://easynfast.net/about-us.html',
-            'http://easynfast.net/services.html',
-            //'http://easynfast.net/services/convert-psd-to-website.html',
-            'http://easynfast.net/services/create-wordpress-theme.html',
-            'http://easynfast.net/services/improve-website-performance.html',
-            'http://easynfast.net/portfolio.html'//,
-            //'http://easynfast.net/contact-us.html'
+            'Home',
+            //'About Us',
+            'Services',
+            //'Convert Psd to Website',
+            'Create WordPress Theme',
+            'Improve Website Performance',
+            'Portfolio'
+            //'Contact Us'
             );
 
-    var mainNavSize = mainNav.length;
+    var mainNavSize = linkItem.length;
     for (var i = 0; i < mainNavSize; i++) {
-        var urlName = $(mainNav).eq(i).find('a').attr('href');
+        var urlName = $(linkItem).eq(i).html();
+        var urlLink = $(linkItem).eq(i).attr('href');
+        var flagFoundName = $.inArray(urlName, underDevArr, 0);
+        var flagFoundLink = $.inArray(urlLink, underDevArr, 0);
+        var aTag = $(linkItem).eq(i);
+
         console.log('The href: ' + urlName);
-        var aTag = $(mainNav).eq(i).find('> a');
-        if ($.inArray(urlName, underDevArr, 0) !== -1) {
-            aTag.attr('href', '#');
-            aTag.addClass('link-under-development');
+        console.log('flagFoundName: ' + flagFoundName);
+        console.log('flagFoundLink: ' + flagFoundLink);
+
+        if (flagFoundName !== -1 || flagFoundLink !== -1 || urlLink === '#') {
+            aTag.removeAttr('href');
+            aTag.addClass('page-under-development');
         }
     }
+
+    /**
+     * *********************************************
+     * Methods Summary: Show dialog when under development link is Click
+     * *********************************************
+     */
+    $('.page-under-development').click(function() {
+        $('.overlay-dark').fadeIn(500);
+        $('.dialog-page-under-development').fadeIn(500);
+    });
+
+    /**
+     * *********************************************
+     * Methods Summary: Alert for Not implement Function
+     * *********************************************
+     */
+    $('.not-implement-alert').click(function() {
+        $('.dialog-function-under-development').stop().fadeIn(200).delay(1000).fadeOut(200);
+    });
+    /**
+     * *********************************************
+     * Methods Summary: Dismiss dialog when Click Dismiss button
+     * *********************************************
+     */
+    $('.dismiss').click(function() {
+        $('.overlay').fadeOut(200);
+    });
+    $('.overlay-dark').click(function() {
+        $('.overlay').fadeOut(200);
+    });
 });

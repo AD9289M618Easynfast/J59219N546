@@ -11,8 +11,8 @@
     padding-top: 100px;
 }
 .fix-header {
-    background-color: #2C2C2C;
-    border-bottom: 20px solid #F6F6F6;
+    background-color: #2c2c2c;
+    border-bottom: 20px solid #f6f6f6;
     box-shadow: 0 0 10px #000000;
     position: fixed;
     top: 0;
@@ -60,7 +60,7 @@
 .main-nav > li:last-child {
 }
 .main-nav > li > a {
-    color: #FFFFFF;
+    color: #ffffff;
     display: block;
     font-size: 18px;
     font-weight: bold;
@@ -69,11 +69,11 @@
     text-decoration: none;
 }
 .main-nav > li:hover {
-    background-color: #F6F6F6;
-    border-color: #2C2C2C;
+    background-color: #f6f6f6;
+    border-color: #2c2c2c;
 }
 .main-nav > li:hover > a {
-    color: #2B2B2B;
+    color: #2b2b2b;
 }
 .main-nav li > ul {
     background-color: #383838;
@@ -96,7 +96,7 @@
 }
 .main-nav .sub-menu > li > a {
     border-top: 1px solid #404040;
-    color: #FFFFFF;
+    color: #ffffff;
     display: block;
     font-size: 15px;
     font-weight: bold;
@@ -105,7 +105,7 @@
     text-decoration: none;
 }
 .main-nav .sub-menu > li:hover {
-    background-color: #2C2C2C;
+    background-color: #2c2c2c;
 }
 .main-nav .sub-menu > li:hover > a {
     border-color: rgba(0, 0, 0, 0);
@@ -123,7 +123,7 @@
 .social-nav {
 }
 .social-nav > li {
-    border-left: 1px solid #D3D3D3;
+    border-left: 1px solid #d3d3d3;
     float: left;
 }
 .social-nav > li:first-child {
@@ -137,13 +137,13 @@
 .social-nav > li:hover > a {
 }
 #icon-facebook:hover {
-    background-color: #5877CF;
+    background-color: #5877cf;
 }
 #icon-twitter:hover {
-    background-color: #55ACEE;
+    background-color: #55acee;
 }
 #icon-googleplus:hover {
-    background-color: #DD4B39;
+    background-color: #dd4b39;
 }
 #contact-form-wrapper {
     margin: 0 auto;
@@ -163,9 +163,9 @@
     width: 45%;
 }
 .option-services {
-    background-color: #FFFFFF;
-    border-left: 1px solid #F6F6F6;
-    border-right: 1px solid #F6F6F6;
+    background-color: #ffffff;
+    border-left: 1px solid #f6f6f6;
+    border-right: 1px solid #f6f6f6;
     bottom: -115px;
     color: #000000;
     display: none;
@@ -176,16 +176,16 @@
 .contact-info-holder {
 }
 .option-services > li:hover {
-    background-color: #C0C0C0;
+    background-color: #c0c0c0;
     cursor: pointer;
 }
 .option-services > li {
-    border-bottom: 1px solid #F6F6F6;
+    border-bottom: 1px solid #f6f6f6;
     line-height: 35px;
     padding-left: 50px;
 }
 .message-holder > input {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border: medium none;
     display: block;
     font-size: 15px;
@@ -224,11 +224,11 @@
     padding-left: 70px;
 }
 .contact-info-holder.fright li {
-    color: #F6F6F6;
+    color: #f6f6f6;
     height: 54px;
 }
 .contact-info-holder.fright a {
-    color: #F6F6F6;
+    color: #f6f6f6;
     font-weight: 500;
     line-height: 54px;
     text-decoration: underline;
@@ -253,7 +253,7 @@
     width: 600px;
 }
 .messagebox-holder > input[type="submit"] {
-    background-color: #FF695C;
+    background-color: #ff695c;
     border: medium none;
     border-radius: 5px;
     cursor: pointer;
@@ -289,7 +289,7 @@
     overflow: auto;
 }
 .h2-title, .about-us-wrapper > div > h2 {
-    border-bottom: 1px dotted #F6F6F6;
+    border-bottom: 1px dotted #f6f6f6;
     font-size: 35px;
     line-height: 35px;
     margin-bottom: 20px;
@@ -327,7 +327,7 @@
     background-image: url("../images/theme/icon/icon-arrow-left.png"), url("../images/theme/icon/icon-arrow-right.png");
     background-position: left center, right center;
     background-repeat: no-repeat;
-    color: #F2D4D2;
+    color: #f2d4d2;
     display: block;
     font-size: 30px;
     height: 30px;
@@ -339,7 +339,7 @@
 .slider-800 {
 }
 .slider-800 > li {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     font-size: 60px;
     height: 300px;
@@ -351,18 +351,18 @@
     width: 90%;
 }
 .double-layer-wrapper {
-    background: none repeat scroll 0 0 #C2C2C2;
+    background: none repeat scroll 0 0 #c2c2c2;
     margin: 0 auto;
     width: 925px;
 }
 .double-layer-wrapper, .double-layer-wrapper > div:first-child {
-    border: 2px solid #C2C2C2;
+    border: 2px solid #c2c2c2;
     border-radius: 15px;
     overflow: visible;
     position: relative;
 }
 .convert-psd-to-website-services {
-    background-color: #2C2C2C;
+    background-color: #2c2c2c;
     left: -5px;
     padding: 3%;
     top: -5px;
@@ -418,7 +418,7 @@
     margin-bottom: 0;
 }
 .promise-note-list > li strong, .offer-list strong {
-    color: #DD3425;
+    color: #dd3425;
 }
 .psd-to-website-wrapper .our-offer {
 }
@@ -436,7 +436,7 @@
     padding-left: 15px;
 }
 .offer-list .price-quote {
-    background-color: #FE5E50;
+    background-color: #fe5e50;
     border-radius: 10px;
     color: #000000;
     display: block;
@@ -472,4 +472,61 @@ span.icon {
 .icon-list {
     background-image: url("../images/theme/icon/icon-page-convert-psd-to-website.png");
     background-position: -35px 4px;
+}
+.icon-development {
+    background-image: url("../images/theme/icon/icon-development.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    float: left;
+    height: 60px;
+    width: 71px;
+}
+.dialog-page-under-development {
+    background-color: rgba(0, 0, 0, 0.68);
+    background-image: url("../images/theme/icon/icon-under-development.png");
+    background-position: 350px 200px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 315px;
+    margin: auto;
+    padding: 25px;
+    width: 400px;
+}
+.dialog-page-under-development > h2, .dialog-function-under-development > h2 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.dialog-page-under-development p {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+.complete-webpage-list {
+    margin: 0 auto;
+    max-width: 320px;
+    width: 100%;
+}
+.complete-webpage-list > li {
+    background-image: url("../images/theme/icon/icon-ok.png");
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    padding-left: 35px;
+}
+.complete-webpage-list a {
+    font-size: 15px;
+    line-height: 24px;
+}
+.dismiss {
+    background-color: #ff695c;
+    border-radius: 5px;
+    display: block;
+    line-height: 35px;
+    margin: 20px auto 0;
+    text-align: center;
+    width: 100px;
 }

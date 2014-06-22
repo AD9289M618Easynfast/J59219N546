@@ -15,7 +15,7 @@ get_header();
      }
      ?>>
          <?php if (!$underDevelopment) : ?>
-        Do your things here
+        Create Wordpress Theme From Scratch
     <?php endif; ?>
 </div>
 <?php

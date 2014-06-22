@@ -20,7 +20,7 @@
     ?>>
         <meta charset="<?php bloginfo('charset'); ?>" />
         <meta name="viewport" content="width=device-width" />
-
+        <link rel="icon" href="<?php echo $imageIconPath; ?>favicon.ico">
         <!--setup author google+--> 
         <link rel="author" href="https://plus.google.com/+BaoAnhLeEasynFast" />
 
@@ -39,26 +39,19 @@
         <meta name="description" content="<?php
         echo $descriptionSeo;
         ?>" />
-
         <!--SEO keywords-->
         <meta name="keywords" content="<?php
         echo $keywordSeo;
         ?>" />
-
         <!--Facebook meta tags-->
-
         <!--location-->
         <meta property="og:locale" content="en_US" />
-
         <!--current page url-->
         <meta property="og:url" content="<?php
         echo $the_permalink;
         ?>"/>
-
         <!--website type-->
-        <!--TODO-->
-        <meta property="og:type" content=""/>
-
+        <meta property="og:type" content="article"/>
         <!--page title-->
         <meta property="og:title" content="<?php
         if ($titleSeo != "") {
@@ -69,18 +62,14 @@
         ?> | <?php
               echo $siteNameSeo;
               ?>"/>
-
         <!--website name-->
         <meta property="og:site_name" content="<?php
         echo $siteNameSeo;
         ?>"/>
-
         <!--website thumbnail image-->
-        <!--TODO-->
         <meta property="og:image" content="<?php
         echo $imageSeo;
         ?>"/>
-
         <!--description-->
         <meta property="og:description" content="<?php
         echo $descriptionSeo;
@@ -107,69 +96,32 @@
             ga('send', 'pageview');
         </script>
         <?php wp_head(); ?>
+        <style type="text/css">
+            .main-nav > li, 
+            .main-nav > li > a, 
+            .social-nav > li > a, 
+            .main-nav > li > ul,
+            #social-floating {
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+            }
+            ::selection {
+                background: #00c77a; 
+            }
+            ::-moz-selection {
+                background: #00c77a;
+            }
+        </style>
     </head>
     <body <?php body_class(); ?>>
-        <div class="overlay loading">
+        <div class="overlay overlay-light loading">
             <img class="overlay icon-preloading" 
                  src="<?php
                  echo $imagePath;
                  ?>icon-loading.gif" 
-                 alt="EasynFast.net pre-loading icon"/>
-        </div>
-        <div class="dialog-not-implement display-none">
-            This function is not yet implemented!
-        </div>
-        <div id="social-floating">
-            <ul class="social-share-counter">
-                <li>
-                    <div id="fb-root"></div>
-                    <div class="fb-like" 
-                         data-href="<?php
-                         echo $the_permalink;
-                         ?>" 
-                         data-layout="box_count" 
-                         data-action="like" 
-                         data-show-faces="true" 
-                         data-share="false">
-                    </div>
-                </li>
-                <li>
-                    <div class="fb-share-button" 
-                         data-href="<?php
-                         echo $the_permalink;
-                         ?>" 
-                         data-type="box_count">
-                    </div>
-                </li>
-                <li>
-                    <a href="https://twitter.com/share" 
-                       class="twitter-share-button" 
-                       data-url="<?php
-                       echo $the_permalink;
-                       ?>" 
-                       data-via="your_screen_name" 
-                       data-lang="en" 
-                       data-related="anywhereTheJavascriptAPI" 
-                       data-count="vertical">Tweet</a>
-                </li>
-                <li>
-                    <div class="g-plusone" 
-                         data-size="tall" 
-                         data-href="<?php
-                         echo $the_permalink;
-                         ?>">
-                    </div>
-                </li>
-                <li>
-                    <script 
-                        type="IN/Share"
-                        data-url="<?php
-                        echo $the_permalink;
-                        ?>" 
-                        data-counter="top">
-                    </script>
-                </li>
-            </ul>
+                 alt="EasynFast.net pre-loading icon"
+                 width="100"
+                 height="100"/>
         </div>
         <div id="wrapper">
             <div id="header">
@@ -179,7 +131,9 @@
                             <img src="<?php
                             echo $imagePath;
                             ?>logo-easynfast.net.png"
-                                 alt="Easynfast Logo images"/>
+                                 alt="Easynfast Logo images"
+                                 width="329"
+                                 height="57"/>
                         </a>
                         <?php
                         wp_nav_menu($mainNav);
@@ -197,7 +151,9 @@
                     }
                     ?>" alt="<?php
                          echo $the_title;
-                         ?>"/>
+                         ?>"
+                         width="960"
+                         height="190"/>
                 </div>
                 <div class="social-wrapper width-960 margin-center">
                     <div class="breadcrum-wrapper">

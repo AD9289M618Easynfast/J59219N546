@@ -52,7 +52,9 @@ if ($underDevelopment) {
                     <img src="<?php
                     echo $imagePath;
                     ?>about-us-letrinhbaoanh.png" 
-                         alt="Le Trinh Bao Anh (zBaoAnhLe) is the founder of EasynFast.net."/>
+                         alt="Le Trinh Bao Anh (zBaoAnhLe) is the founder of EasynFast.net."
+                         width="245"
+                         height="185"/>
                 </div>
                 <div class="main-info width-full">
                     <p>
