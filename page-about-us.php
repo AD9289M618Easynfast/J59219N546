@@ -1,6 +1,6 @@
 <?php
 include_once "seoSupport.php";
-$underDevelopment = false;
+$underDevelopment = true;
 /**
  * *********************************************
  * Methods Summary: Global Variables
@@ -29,7 +29,7 @@ $keywordSeo = "about easynfast";
 $descriptionSeo = "We’re a group of people who are passionate about what we do. We don't just do it, as a growing independent company WE LIVE IT!";
 
 //SEO Facebook Images.
-$imageSeo = $imageFbPath . "fb-about-us.png";
+$imageSeo = $imageFbPath . "fb-about-us.jpg";
 
 get_header();
 ?>

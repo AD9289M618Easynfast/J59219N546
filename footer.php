@@ -18,7 +18,6 @@ global $imageBannerPath;
     <p>We're still working on this website at the moment! Therefore some pages are still under development! Our apologize for any inconvenience.</p>
     <p>Below is a list of complete web-pages:</p>
     <ul class="complete-webpage-list">
-        <li><a href="http://easynfast.net/about-us.html">About Us</a></li>
         <li><a href="http://easynfast.net/services/convert-psd-to-website.html">Convert Psd to Website</a></li>
         <li><a href="http://easynfast.net/contact-us.html">Contact Us</a></li>
     </ul>

@@ -29,7 +29,7 @@ $keywordSeo = "Contact EasynFast";
 $descriptionSeo = "EasynFast support team is here to help. If you have any questions, suggestions or comments on our Services, please don't hesitate to send them to us.";
 
 //SEO Facebook Images.
-$imageSeo = $imageFbPath . "fb-contact-us.png";
+$imageSeo = $imageFbPath . "fb-contact-us.jpg";
 
 get_header();
 ?>

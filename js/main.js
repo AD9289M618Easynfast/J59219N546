@@ -145,7 +145,7 @@ $(document).ready(function() {
     var linkItem = $('a');
     var underDevArr = Array(
             'Home',
-            //'About Us',
+            'About Us',
             'Services',
             //'Convert Psd to Website',
             'Create WordPress Theme',

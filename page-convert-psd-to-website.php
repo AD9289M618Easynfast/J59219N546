@@ -29,7 +29,7 @@ $keywordSeo = "convert psd to website services";
 $descriptionSeo = "Convert Psd to Website Services. We'll provide you top quality conversion of your website design into website within 5 days including weekend!";
 
 //SEO Facebook Images.
-$imageSeo = $imageFbPath . "fb-convert-psd-to-website.png";
+$imageSeo = $imageFbPath . "fb-convert-psd-to-website.jpg";
 
 get_header();
 ?>
@@ -97,7 +97,7 @@ if ($underDevelopment) {
                     <li>See our offer for <a href="#"><strong>Website Designing</strong></a>.</li>
                     <li><strong>Convert Psd to Website</strong> - Starting from <strong>$99.99</strong> (front page)</li>
                     <li><strong>Convert Psd to Website</strong> - Starting from <strong>$49.99</strong> (internal page)</li>
-                    <li><strong>Responsive Design</strong> - Starting from <strong>$249.99</strong> (whole project)</li>
+                    <li><strong>Responsive Design</strong> - Starting from <strong>$149.99</strong> (whole project)</li>
                     <li>See our offer for <a href="#"><strong>Wordpress Integration</strong></a>.</li>
                     <li><a class="price-quote not-implement-alert">Price Quote</a></li>
                 </ul>
